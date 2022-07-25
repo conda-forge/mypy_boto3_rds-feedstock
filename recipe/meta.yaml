@@ -1,5 +1,5 @@
 {% set name = "mypy_boto3_rds" %}
-{% set version = "1.24.35" %}
+{% set version = "1.24.36.post1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-rds-{{ version }}.tar.gz
-  sha256: 7b8fdffd2386716c260df1050e0c615a1f3f6a00e0dbd47deb8d968e023addfc
+  sha256: 56778a0ebb31bc8267b277fb0497857c7fe28171eeb97f32d6324e6bbe27a2a7
 
 build:
   number: 0
