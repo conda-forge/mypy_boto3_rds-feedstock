@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy_boto3_rds
-  version: "1.43.51"
+  version: "1.43.62"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 60509ece3439b4893425d78e6a3c778e0e7d0fd2a207ba298e86813a898daba7
+  sha256: d8327c8753d732221fe4a22fa9d131d7b652e381f3f0c5d570ce716cd91cd552
 
 build:
   number: 0
